@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background:#f6f6f6; }
+.container { max-width: 1000px; margin: 20px auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);}
+.header { display:flex; justify-content:space-between; align-items:center; margin-bottom: 16px; }
+.restaurant-list { display:flex; gap:12px; flex-wrap:wrap; }
+.card { padding:12px; border:1px solid #eee; border-radius:8px; width: 220px; background: #fafafa; }
+.menu { margin-top: 12px; }
+.menu-item { display:flex; justify-content:space-between; margin-bottom:8px; }
+.cart { position: sticky; top: 16px; border:1px solid #eee; padding:12px; border-radius:8px; background:#fff; }
+.grid { display:grid; grid-template-columns: 1fr 320px; gap: 16px; }
+.button { padding:8px 12px; border:none; background:#007bff; color:white; border-radius:6px; cursor:pointer; }
+.small { font-size: 0.9em; }
+input { padding:6px; border:1px solid #ccc; border-radius:4px; }
